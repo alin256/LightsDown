@@ -1,4 +1,4 @@
-#include <pebble.h>
+#include pebble.h
 
 #define ACCEL_STEP_MS 300  
   
@@ -75,7 +75,6 @@ static void timer_callback(void *data) {
   accel_service_peek(&accel);
   
   send_message(accel);
-  //adding a line here - just for fun!
   
   timer = app_timer_register(ACCEL_STEP_MS, timer_callback, NULL);
 }

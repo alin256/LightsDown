@@ -1,0 +1,31 @@
+{
+    "author": "cobxo3bot@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "lightsdown",
+    "pebble": {
+        "displayName": "LightsDown",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "bri": 10,
+            "hue": 11,
+            "message": 1,
+            "sat": 12,
+            "status": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "7852b2ba-d356-499d-a76d-916bd7cde240",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
